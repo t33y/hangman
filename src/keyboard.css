@@ -1,0 +1,26 @@
+.btn{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.btn:focus{
+    background-color: rgb(112, 196, 215);    
+}
+
+.btn:active{
+    background-color: rgb(112, 196, 215);    
+}
+
+.btn:disabled{
+    background-color: rgba(128, 128, 128, 0.384);       
+}
+
+.correctbtn:disabled{
+    background-color: rgba(40, 157, 216, 0.384);    
+}
+
+
+.incorrectbtn:disabled{
+    background-color: rgba(128, 128, 128, 0.384);    
+}
+
