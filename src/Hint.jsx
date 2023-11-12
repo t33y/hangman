@@ -144,6 +144,7 @@ function Hint({
           variants={itemVariants}
           className="text-left py-3"
         >
+          {!options.Hint && "Select Hint from options"}
           <p
             style={{
               textTransform: "capitalize",
