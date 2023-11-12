@@ -14,6 +14,7 @@ function Hint({
   const [isLoadingHint, setIsLoadingHint] = useState(false);
   const handleHintbuttonClick = async () => {
     setHintIsOpen((prev) => !prev);
+    if (!options.Hint) return;
 
     console.log("hint on top", !!wordHint);
     if (wordHint) {
