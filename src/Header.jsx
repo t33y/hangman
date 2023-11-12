@@ -29,7 +29,6 @@ function Header({
         setHintIsOpen(false);
         setWord(randomWord);
       });
-      console.log("word on its own", word);
     } else {
       setWord(words[Math.floor(Math.random() * 26)]);
       setGuessedLetters([]);

@@ -15,7 +15,7 @@ export const getHint = async (hintOption, word) => {
   console.log(url, "url");
   try {
     const hint = await axios.get(url + word, {
-      headers: { "X-Api-Key": process.env.REACT_APP_API_KEY },
+      headers: { "X-Api-Key": "rNeCJefPgGbq5GyqIITVDQ==JxJB9w3WPkAnfZDA" },
       contentType: "application/json",
       success: function (result) {
         console.log(result);
@@ -45,7 +45,7 @@ export const getRandomWord = async () => {
   let url = Urls.word;
   try {
     const res = await axios.get(url, {
-      headers: { "X-Api-Key": process.env.REACT_APP_API_KEY },
+      headers: { "X-Api-Key": "rNeCJefPgGbq5GyqIITVDQ==JxJB9w3WPkAnfZDA" },
       contentType: "application/json",
       success: function (result) {
         console.log(result);
