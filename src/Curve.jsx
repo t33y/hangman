@@ -32,10 +32,10 @@ function Curve() {
         left: "-99px",
         width: "100px",
         height: "100%",
-        fill: "rgba(0,0,200, 0.1)",
+        // fill: "rgba(0,0,200, 0.1)",
         stroke: "none",
       }}
-      className="svgCurve"
+      className="fill-[#0000c8]/10 dark:fill-[#fff]/10"
     >
       <motion.path
         variants={curve}
